@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Stocks Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Stock Calculator</h1>
+		<form>
+			<div class="form-control">
+				<label>Enter purchase price of a stock</label>
+				<input type="text" id="single-stock" required>
+			</div>
+			<div class="form-control">
+				<label>Enter quantity of stocks</label>
+				<input type="text" id="quantity" required>
+			</div>
+			<div class="form-control">
+				<label>Enter current price of a stock</label>
+				<input type="text" id="single-current" required>
+			</div>
+			<div id="output"></div>
+			<div class="btn-center">
+				<button id="btn">Check</button>
+			</div>
+		</form>
+		
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
